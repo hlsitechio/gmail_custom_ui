@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Custom UI",
+  "version": "1.0",
+  "description": "A custom UI for Gmail with remote control capabilities",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["https://gmail-custom-ui.vercel.app/*"]
+}
+
